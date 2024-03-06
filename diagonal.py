@@ -11,7 +11,7 @@ import math
 
 
 
-class DCrossAttention(nn.Module):
+class DAttention(nn.Module):
     
     def __init__(self, in_dim):
         super(DCrossAttention,self).__init__()
